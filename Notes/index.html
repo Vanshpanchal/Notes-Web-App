@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="navabar">
+        <ul>
+            <li><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-journal"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z" />
+                    <path
+                        d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z" />
+                </svg></li>
+            <li id="Topic">Notes</li>
+
+        </ul>
+    </nav>
+
+
+    <div class="add">
+        <hr>
+        <h2>Add Note</h2>
+        <hr>
+        <input name="" id="txt" placeholder="Enter Your Note" required>
+        <div id="bbtns">
+            <button id="add">Add Note</button>
+            <button id="clear" onclick="clr()">Clear</button>
+        </div>
+        <hr>
+        <h2 id="head2">Your Notes </h2>
+        <hr>
+    </div>
+
+    <div class="entry" id="inside">
+
+        <!-- <div class="box">
+            <h3>
+                note 1
+            </h3>
+            <p id="data">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, debitis.
+            </p>
+            <button>
+                Delete Note
+            </button>
+        </div> -->
+
+    </div>
+
+    <script src="app.js"></script>
+
+
+</body>
+</html>
